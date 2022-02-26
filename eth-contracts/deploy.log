@@ -1,0 +1,145 @@
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+
+Migrations dry-run (simulation)
+===============================
+> Network name:    'rinkeby-fork'
+> Network id:      4
+> Block gas limit: 30000000 (0x1c9c380)
+
+
+1_initial_migration.js
+======================
+
+   Replacing 'Migrations'
+   ----------------------
+   > block number:        10234661
+   > block timestamp:     1645867051
+   > account:             0xAFbe2e2c36D3dB225e6c1d99D1b753E37e400d72
+   > balance:             0.243486615230897053
+   > gas used:            210237 (0x3353d)
+   > gas price:           1 gwei
+   > value sent:          0 ETH
+   > total cost:          0.000210237 ETH
+
+   -------------------------------------
+   > Total cost:         0.000210237 ETH
+
+
+2_deploy_contracts.js
+=====================
+
+   Replacing 'Verifier'
+   --------------------
+   > block number:        10234663
+   > block timestamp:     1645867058
+   > account:             0xAFbe2e2c36D3dB225e6c1d99D1b753E37e400d72
+   > balance:             0.242479932230897053
+   > gas used:            979320 (0xef178)
+   > gas price:           1 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00097932 ETH
+
+
+   Replacing 'SolnSquareVerifier'
+   ------------------------------
+   > block number:        10234664
+   > block timestamp:     1645867115
+   > account:             0xAFbe2e2c36D3dB225e6c1d99D1b753E37e400d72
+   > balance:             0.238320761230897053
+   > gas used:            4159171 (0x3f76c3)
+   > gas price:           1 gwei
+   > value sent:          0 ETH
+   > total cost:          0.004159171 ETH
+
+   -------------------------------------
+   > Total cost:         0.005138491 ETH
+
+
+Summary
+=======
+> Total deployments:   3
+> Final cost:          0.005348728 ETH
+
+
+
+
+
+Starting migrations...
+======================
+> Network name:    'rinkeby'
+> Network id:      4
+> Block gas limit: 29970705 (0x1c95111)
+
+
+1_initial_migration.js
+======================
+
+   Replacing 'Migrations'
+   ----------------------
+   > transaction hash:    0x02df254f55398632c45c9939fbb036b4500db17e3f9aaca8774235152d27cff7
+   > Blocks: 1            Seconds: 20
+   > contract address:    0x4D2e49295e5DCf40a15B4Ea2ce0440D2Aab88E6b
+   > block number:        10234668
+   > block timestamp:     1645867160
+   > account:             0xAFbe2e2c36D3dB225e6c1d99D1b753E37e400d72
+   > balance:             0.243470315230897053
+   > gas used:            226537 (0x374e9)
+   > gas price:           1 gwei
+   > value sent:          0 ETH
+   > total cost:          0.000226537 ETH
+
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:         0.000226537 ETH
+
+
+2_deploy_contracts.js
+=====================
+
+   Replacing 'Verifier'
+   --------------------
+   > transaction hash:    0xd6c8cb984841a74719828f5300171f852abc9b8abc4c86b0f7bedc3aecdabc2c
+   > Blocks: 1            Seconds: 24
+   > contract address:    0xB0D3173DA26E4AE80632A2c0bE01Daeb5C7ca315
+   > block number:        10234674
+   > block timestamp:     1645867250
+   > account:             0xAFbe2e2c36D3dB225e6c1d99D1b753E37e400d72
+   > balance:             0.242445232230897053
+   > gas used:            979320 (0xef178)
+   > gas price:           1 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00097932 ETH
+
+
+   Replacing 'SolnSquareVerifier'
+   ------------------------------
+   > transaction hash:    0x11aa1c10ac992737ddb5cdfe5f9ed366d0140f6800c21f22894971f3953c05ad
+   > Blocks: 3            Seconds: 49
+   > contract address:    0x6d5e7bf8FE4D81372e3f790fF70adee8f1E762D4
+   > block number:        10234678
+   > block timestamp:     1645867310
+   > account:             0xAFbe2e2c36D3dB225e6c1d99D1b753E37e400d72
+   > balance:             0.238058861230897053
+   > gas used:            4386371 (0x42ee43)
+   > gas price:           1 gwei
+   > value sent:          0 ETH
+   > total cost:          0.004386371 ETH
+
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:         0.005365691 ETH
+
+
+Summary
+=======
+> Total deployments:   3
+> Final cost:          0.005592228 ETH
+
