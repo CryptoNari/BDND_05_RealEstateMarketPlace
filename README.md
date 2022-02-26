@@ -15,6 +15,7 @@ Truffle v5.4.24 (core: 5.4.24) - Smart Contracts developing, testing and deployi
 Solidity v0.5.16 (solc-js) - Implementing Smart Contractd <br>
 Node v10.13.0 - Manage dependencies with npm. <br>
 Web3.js v1.5.3 - Interaction with local or remote Ethereum nod using http, ipc or websocket. <br>
+ZoKrates 0.7.11 - toolbox for zkSNARKs on Ethereum.<br>
 
 ## Instructions
 
@@ -52,6 +53,8 @@ Verifiier(ContractAddress):
 
 [0xB0D3173DA26E4AE80632A2c0bE01Daeb5C7ca315](https://rinkeby.etherscan.io/address/0xB0D3173DA26E4AE80632A2c0bE01Daeb5C7ca315)<br>
 
+
+Contract Abi's available in "./eth-contracts/build/contracts/" Folder.
 
 
 # OpenSea 

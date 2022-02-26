@@ -1,3 +1,2 @@
 /node_modules
-/eth-contracts/build
 /eth-contracts/.secrets.json
