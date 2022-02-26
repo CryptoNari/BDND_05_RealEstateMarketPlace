@@ -1,0 +1,31 @@
+Using network 'development'.
+
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+
+  Contract: TestERC721Mintable
+    match erc721 spec
+      ✓ should return total supply
+      ✓ should get token balance (42ms)
+      ✓ should return token uri (56ms)
+      ✓ should transfer token from one owner to another (303ms)
+    have ownership properties
+      ✓ should fail when minting when address is not contract owner
+      ✓ should return contract owner
+
+  Contract: SolnSquareVerifier
+    Test proof of ownership mint
+      ✓ should add a new solution (104ms)
+      ✓ should mint ERC721 token (2569ms)
+
+  Contract: SquareVerifier
+    verify Zokrates zkSnarks contract
+      ✓ should verify with correct proof (496ms)
+      ✓ should not verify with incorrect proof (494ms)
+
+
+  10 passing (9s)
